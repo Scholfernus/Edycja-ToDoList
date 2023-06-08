@@ -8,3 +8,12 @@ p {
     background-color: yellowgreen;
     border: solid 2px black ;
 }
+.product {
+    background-color: rgb(197,243,186);
+    width: 300px;
+      margin: 1px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border: solid black 1px;
+}
