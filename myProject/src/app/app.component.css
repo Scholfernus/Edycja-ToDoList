@@ -1,0 +1,10 @@
+p { 
+    font-size: 36px;
+    background-color: brown;
+    border: solid 1px black;
+    margin-top: 30px;
+}
+.head {
+    background-color: yellowgreen;
+    border: solid 2px black ;
+}
