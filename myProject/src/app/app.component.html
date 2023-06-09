@@ -1,5 +1,35 @@
 
-<p>Nagłówek</p>
-<head>Nagłówek</head>
-<div class="head">My project</div>
+<body>
+  <header>
+    <h1>Online Shop</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Main Page</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Busket</a></li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Products</h2>
+    <div class="product">
+    <p><b style="color:red">Go to </b><a href="#"> Home Page</a></p>
+    </div>
+    <div class="product">
+      <h3 class="product-title">Name</h3>
+      <p class="Description">Description</p>
+      <button (click)="clickHandler()">Click Me</button>
+    </div>
+
+    <div class="product">
+      <h3 class="product-title">Kategoria</h3>
+      <h3 class="product-title">Szczegóły</h3>
+      <button (click)="clickHandler()">Click Me</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Mój sklep internetowy. Wszelkie prawa zastrzeżone</p>
+  </footer>
 
